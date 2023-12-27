@@ -47,5 +47,5 @@ def calc(name):  # noqa: C901
                       'Correct answer was ' + str(ans))
                 print('Try again, ' + name)
                 return
-    print('Congratulation, Sam')
+    print('Congratulation, ' + name + "!")
     return
