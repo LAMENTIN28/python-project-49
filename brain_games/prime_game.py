@@ -7,23 +7,23 @@ def prime(name):
     while ind <= 2:
         i = 2
         count = 0
-        num = randint(1, 1000)
-        print(num)
-        while i < num:
-            if num % i == 0:
+        number = randint(1, 1000)
+        print(number)
+        while i < number:
+            if number % i == 0:
                 count += 1
             i += 1
         if count == 0:
-            ans = "yes"
+            right_ans = "yes"
         else:
-            ans = "no"
-        ans_u = input()
-        if ans == ans_u:
+            right_ans = "no"
+        ans_user = input()
+        if right_ans == ans_user:
             print('Correct!')
             ind += 1
         else:
-            print(str(ans_u) + ' is wrong answer ;(. '
-                  'Correct answer was ' + str(ans))
+            print(str(ans_user) + ' is wrong answer ;(. '
+                  'Correct answer was ' + str(right_ans))
             return
     print('Congratulation, ' + name + "!")
     return
