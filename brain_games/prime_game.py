@@ -24,6 +24,7 @@ def prime(name):
         else:
             print(str(ans_user) + ' is wrong answer ;(. '
                   'Correct answer was ' + str(right_ans))
+            print('Let\'s try again, ' + name + "!")
             return
     print('Congratulations, ' + name + "!")
     return
