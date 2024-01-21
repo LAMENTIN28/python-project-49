@@ -19,7 +19,7 @@ def calc(name):  # noqa: C901
             else:
                 print(str(ansu) + ' is wrong answer ;(. '
                       'Correct answer was ' + str(ans))
-                print('Try again, ' + name)
+                print('Let\'s try again, ' + name + "!")
                 return
         elif sign == 2:
             print("Question: " + str(num1) + " - " + str(num2))
@@ -32,7 +32,7 @@ def calc(name):  # noqa: C901
             else:
                 print(str(ansu) + ' is wrong answer ;(. '
                       'Correct answer was ' + str(ans))
-                print('Try again, ' + name)
+                print('Let\'s try again, ' + name + "!")
                 return
         elif sign == 3:
             print("Question: " + str(num1) + " * " + str(num2))
