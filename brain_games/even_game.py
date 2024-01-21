@@ -7,7 +7,7 @@ def even(name):
     name = str(name)
     while i < 3:
         num = randint(1, 999)
-        print(num)
+        print(f'Question: {num}')
         ans = input()
         if num % 2 == 0 and ans == "yes":
             i += 1
