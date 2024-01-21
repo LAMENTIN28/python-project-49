@@ -17,7 +17,8 @@ def progression(name):
         space = randint(0, length - 1)
         res = list[space]
         list[space] = ".."
-        print(*list)
+        q= "Question: "
+        print(q, *list)
         ans = input()
         if str(res) == ans:
             right_ans += 1
@@ -25,7 +26,7 @@ def progression(name):
         else:
             print(str(ans) + ' is wrong answer ;(. '
                   'Correct answer was ' + str(res))
-            print('Try again, ' + name + '.')
+            print('Let\'s try again, ' + name + '.')
             return
-    print('Congratulation, ' + name + "!")
+    print('Congratulations, ' + name + "!")
     return
