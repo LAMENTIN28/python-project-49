@@ -22,5 +22,5 @@ def gcd(name):
                   'Correct answer was ' + str(ans))
             print('Let\'s try again, ' + name + "!")
             return
-    print('Congratulation, ' + name + '!')
+    print('Congratulations, ' + name + '!')
     return
