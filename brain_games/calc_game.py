@@ -45,7 +45,7 @@ def calc(name):  # noqa: C901
             else:
                 print(str(ansu) + ' is wrong answer ;(. '
                       'Correct answer was ' + str(ans))
-                print('Try again, ' + name)
+                print('Let\'s try again, ' + name)
                 return
     print('Congratulations, ' + name + "!")
     return
