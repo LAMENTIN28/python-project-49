@@ -17,7 +17,7 @@ def progression(name):
         space = randint(0, length - 1)
         res = list[space]
         list[space] = ".."
-        q= "Question:"
+        q = "Question:"
         print(q, *list)
         ans = input()
         if str(res) == ans:
