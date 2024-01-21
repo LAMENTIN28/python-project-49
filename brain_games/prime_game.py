@@ -8,7 +8,7 @@ def prime(name):
         i = 2
         count = 0
         number = randint(1, 1000)
-        print(number)
+        print(f"Question: {number}")
         while i < number:
             if number % i == 0:
                 count += 1
@@ -25,5 +25,5 @@ def prime(name):
             print(str(ans_user) + ' is wrong answer ;(. '
                   'Correct answer was ' + str(right_ans))
             return
-    print('Congratulation, ' + name + "!")
+    print('Congratulations, ' + name + "!")
     return
