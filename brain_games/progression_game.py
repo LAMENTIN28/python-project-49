@@ -26,7 +26,7 @@ def progression(name):
         else:
             print(str(ans) + ' is wrong answer ;(. '
                   'Correct answer was ' + str(res))
-            print('Let\'s try again, ' + name + '.')
+            print('Let\'s try again, ' + name + '!')
             return
     print('Congratulations, ' + name + "!")
     return
