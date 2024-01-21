@@ -6,7 +6,8 @@ def gcd(name):
     while i <= 2:
         a = randint(1, 100)
         b = randint(1, 100)
-        print(a, b)
+        print('Find the greatest common divisor of given numbers.')
+        print(f"Question: {a} {b}")
         e = 1
         while e <= a and e <= b:
             if a % e == 0 and b % e == 0:
@@ -19,7 +20,7 @@ def gcd(name):
         else:
             print(str(ansu) + ' is wrong answer ;(. '
                   'Correct answer was ' + str(ans))
-            print('Try again, ' + name + '.')
+            print('Let\'s try again, ' + name + "!")
             return
     print('Congratulation, ' + name + '!')
     return
