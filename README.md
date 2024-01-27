@@ -8,8 +8,9 @@ Project includes several games:
 2. Greatest common divisor
 3. Simple calculator
 4. Test for finding even number
-5. Prorgression
-Instal project using by GitHub:https://github.com/LAMENTIN28/python-project-49.  
+5. Prorgression  
+
+Instal project using by GitHub: https://github.com/LAMENTIN28/python-project-49.  
  
 Use comand clone
 For starting you can use nams of games:
