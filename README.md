@@ -12,8 +12,8 @@ Project includes several games:
 
 Instal project using by GitHub: https://github.com/LAMENTIN28/python-project-49.  
  
-Use comand clone
-For starting you can use nams of games:
+Use comand clone  
+For starting you can use names of games:
 1. brain-prime
 2. brain-gcd
 3. brain-calc
