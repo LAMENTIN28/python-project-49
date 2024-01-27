@@ -12,7 +12,8 @@ def calc(name):
         sign = randint(0, 2)
         operators_sym = ['+', '-', '*']
         operators = [add, sub, mul]
-        print("Question: " + str(num1) + ' ' + operators_sym[sign] + ' ' + str(num2))
+        print("Question: " + str(num1) + ' ' + operators_sym[sign] + ''
+              ' ' + str(num2))
         right_ans = operators[sign](num1, num2)
         print("Your answer is: ")
         ans_user = input()

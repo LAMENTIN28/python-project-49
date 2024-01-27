@@ -10,8 +10,7 @@ def gcd(name):
         b = randint(1, 100)
         print('Find the greatest common divisor of given numbers.')
         print(f"Question: {a} {b}")
-        e = 1
-        right_ans = math.gcd(a ,b)
+        right_ans = math.gcd(a, b)
         ans_user = input()
         ind = check(ans_user, right_ans, ind, name)
         if ind is False:
