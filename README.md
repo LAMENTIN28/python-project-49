@@ -12,7 +12,7 @@ Project includes several games:
 
 Instal project using by GitHub: https://github.com/LAMENTIN28/python-project-49.  
  
-Use comand clone  
+Use comand clone.  
 For starting you can use names of games:
 1. brain-prime
 2. brain-gcd
@@ -21,7 +21,7 @@ For starting you can use names of games:
 5. brain-progression
 
 ### Requirements
-Project use python and poetry latest versions by 27.01.2024
+Project use python and poetry latest versions by 27.01.2024.
 
 ### Asciinema
 #### **Greetings:**
