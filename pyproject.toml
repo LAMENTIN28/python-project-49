@@ -2,7 +2,8 @@
 name = "hexlet-code"
 version = "0.1.0"
 description = "Package of mathematical games."
-authors = ["vasco_proger <perpendomobile@gmail.com>"
+authors = [
+"vasco_proger <perpendomobile@gmail.com>"
 ]
 readme = "README.md"
 packages = [
@@ -12,7 +13,9 @@ classifiers = [
 "Development Status :: 5 - Production/Stable",
 "Environment :: Console",
 "Natural Language :: English",
-"Topic :: Terminals"
+"Topic :: Terminals",
+"Programming Language :: Python :: 3 :: Only",
+"License :: Public Domain"
 ]
 repository = "https://github.com/LAMENTIN28/python-project-49"
 
