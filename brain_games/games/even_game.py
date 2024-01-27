@@ -8,14 +8,12 @@ def even(name):
     name = str(name)
     while ind < 3:
         num = randint(1, 999)
+        right_ans = 'no'
         if num % 2 == 0:
             right_ans = 'yes'
-        else:
-            right_ans = 'no'
         print(f'Question: {num}')
         ans_user = input()
         ind = check(ans_user, right_ans, ind, name)
         if ind is False:
             return
-    print('Congratulations, ' + name + "!")
     return

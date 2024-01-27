@@ -10,17 +10,14 @@ def prime(name):
         count = 0
         number = randint(1, 1000)
         print(f"Question: {number}")
+        right_ans = 'yes'
         while i < number:
             if number % i == 0:
                 count += 1
+                right_ans = "no"
             i += 1
-        if count == 0:
-            right_ans = "yes"
-        else:
-            right_ans = "no"
         ans_user = input()
         ind = check(ans_user, right_ans, ind, name)
         if ind is False:
             return
-    print('Congratulations, ' + name + "!")
     return

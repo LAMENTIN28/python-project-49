@@ -18,5 +18,4 @@ def gcd(name):
         ind = check(ans_user, right_ans, ind, name)
         if ind is False:
             return
-    print('Congratulations, ' + name + '!')
     return
