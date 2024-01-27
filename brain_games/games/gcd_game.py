@@ -1,5 +1,6 @@
 from random import randint
 from brain_games.engine.engine import check
+import math
 
 
 def gcd(name):
@@ -10,10 +11,7 @@ def gcd(name):
         print('Find the greatest common divisor of given numbers.')
         print(f"Question: {a} {b}")
         e = 1
-        while e <= a and e <= b:
-            if a % e == 0 and b % e == 0:
-                right_ans = e
-            e += 1
+        right_ans = math.gcd(a ,b)
         ans_user = input()
         ind = check(ans_user, right_ans, ind, name)
         if ind is False:
