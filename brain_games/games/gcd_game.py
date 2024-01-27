@@ -1,9 +1,10 @@
 from random import randint
+from brain_games.engine.engine import check
 
 
 def gcd(name):
-    i = 0
-    while i <= 2:
+    ind = 0
+    while ind <= 2:
         a = randint(1, 100)
         b = randint(1, 100)
         print('Find the greatest common divisor of given numbers.')
@@ -11,16 +12,11 @@ def gcd(name):
         e = 1
         while e <= a and e <= b:
             if a % e == 0 and b % e == 0:
-                ans = e
+                right_ans = e
             e += 1
-        ansu = input()
-        if str(ans) == ansu:
-            print('Correct!')
-            i += 1
-        else:
-            print(str(ansu) + ' is wrong answer ;(. '
-                  'Correct answer was ' + str(ans))
-            print('Let\'s try again, ' + name + "!")
+        ans_user = input()
+        ind = check(ans_user, right_ans, ind, name)
+        if ind is False:
             return
     print('Congratulations, ' + name + '!')
     return

@@ -1,4 +1,5 @@
 from random import randint
+from brain_games.engine.engine import check
 
 
 def prime(name):
@@ -18,13 +19,8 @@ def prime(name):
         else:
             right_ans = "no"
         ans_user = input()
-        if right_ans == ans_user:
-            print('Correct!')
-            ind += 1
-        else:
-            print(str(ans_user) + ' is wrong answer ;(. '
-                  'Correct answer was ' + str(right_ans))
-            print('Let\'s try again, ' + name + "!")
+        ind = check(ans_user, right_ans, ind, name)
+        if ind is False:
             return
     print('Congratulations, ' + name + "!")
     return

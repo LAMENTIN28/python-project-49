@@ -1,10 +1,11 @@
 from random import randint
+from brain_games.engine.engine import check
 
 
 def progression(name):
-    right_ans = 0
+    ind = 0
     print("What number is missing in the progression?")
-    while right_ans <= 2:
+    while ind <= 2:
         length = randint(5, 10)
         step = randint(-5, 5)
         first = randint(-10, 10)
@@ -15,18 +16,13 @@ def progression(name):
             list.append(first + (step * count))
             count += 1
         space = randint(0, length - 1)
-        res = list[space]
+        right_ans = list[space]
         list[space] = ".."
         q = "Question:"
         print(q, *list)
-        ans = input()
-        if str(res) == ans:
-            right_ans += 1
-            print('Correct!')
-        else:
-            print(str(ans) + ' is wrong answer ;(. '
-                  'Correct answer was ' + str(res))
-            print('Let\'s try again, ' + name + '!')
+        ans_user = input()
+        ind = check(ans_user, right_ans, ind, name)
+        if ind is False:
             return
     print('Congratulations, ' + name + "!")
     return
