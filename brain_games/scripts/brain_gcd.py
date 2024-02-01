@@ -1,9 +1,9 @@
 from brain_games.games.gcd_game import gcd
-from brain_games.cli import welcome_user
+from brain_games.scripts.brain_games import main_brain
 
 
 def main():
-    gcd(welcome_user())
+    gcd(main_brain())
 
 
 if __name__ == '__main__':

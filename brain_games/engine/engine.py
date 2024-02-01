@@ -10,3 +10,10 @@ def check(ans_user, right_ans, ind, name):
               'Correct answer was ' + str(right_ans))
         print('Let\'s try again, ' + name + "!")
         return False
+
+
+def questions(question):
+    print(question)
+
+def quest_exclam(exclam):
+    print("Question: " + exclam)

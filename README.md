@@ -25,13 +25,13 @@ Project use python and poetry latest versions by 27.01.2024.
 
 ### Asciinema
 #### **Greetings:**
-##### (https://asciinema.org/a/AsypkHADsSJ9HC5dcQnaPpfot)
+##### [![asciicast]](https://asciinema.org/a/AsypkHADsSJ9HC5dcQnaPpfot)
 
 #### *Calculator:*
 ##### (https://asciinema.org/a/0FxC9WQdk4kuEIzngPdQeomEI)
 
 #### *Finding prime number:* 
-##### (https://asciinema.org/a/dBV5WiuCXgrKTsfVJIdEs1o1y)
+#####  (https://asciinema.org/a/dBV5WiuCXgrKTsfVJIdEs1o1y)
 
 #### *Test for finding even number:* 
 ##### (https://asciinema.org/a/ERn9W0Dn84p8805WINp22THVL)

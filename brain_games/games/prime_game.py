@@ -1,15 +1,17 @@
 from random import randint
-from brain_games.engine.engine import check
+from brain_games.engine.engine import check, questions, quest_exclam
 
 
 def prime(name):
     ind = 0
-    print('Answer "yes" if given number is prime. Otherwise answer "no".')
-    while ind <= 2:
+    question = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+    questions(question)
+    def repeat():
         i = 2
         count = 0
         number = randint(1, 1000)
-        print(f"Question: {number}")
+        exclam = f"{number}"
+        quest_exclam(exclam)
         right_ans = 'yes'
         while i < number:
             if number % i == 0:

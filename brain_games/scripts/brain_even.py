@@ -1,9 +1,9 @@
 from brain_games.games.even_game import even
-from brain_games.cli import welcome_user
+from brain_games.scripts.brain_games import main_brain
 
 
 def main():
-    even(welcome_user())
+    even(main_brain())
 
 
 if __name__ == '__main__':

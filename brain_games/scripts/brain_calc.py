@@ -1,9 +1,9 @@
 from brain_games.games.calc_game import calc
-from brain_games.cli import welcome_user
+from brain_games.scripts.brain_games import main_brain
 
 
 def main():
-    calc(welcome_user())
+    calc(main_brain())
 
 
 if __name__ == '__main__':
