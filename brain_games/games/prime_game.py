@@ -6,7 +6,7 @@ def prime(name):
     ind = 0
     question = 'Answer "yes" if given number is prime. Otherwise answer "no".'
     questions(question)
-    def repeat():
+    while ind < 3:
         i = 2
         count = 0
         number = randint(1, 1000)

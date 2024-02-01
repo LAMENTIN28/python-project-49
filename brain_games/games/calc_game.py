@@ -7,7 +7,7 @@ def calc(name):
     ind = 0
     question = "What is the result of the expression?"
     questions(question)
-    def repeat():
+    while ind < 3:
         num1 = randint(1, 100)
         num2 = randint(1, 100)
         sign = randint(0, 2)

@@ -7,7 +7,7 @@ def even(name):
     questions(question)
     ind = 0
     name = str(name)
-    def repeat():
+    while ind < 3:
         num = randint(1, 999)
         right_ans = 'no'
         if num % 2 == 0:

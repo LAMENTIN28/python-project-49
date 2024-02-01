@@ -14,6 +14,8 @@ def check(ans_user, right_ans, ind, name):
 
 def questions(question):
     print(question)
+    return
 
 def quest_exclam(exclam):
     print("Question: " + exclam)
+    return

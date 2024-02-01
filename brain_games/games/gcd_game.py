@@ -5,7 +5,7 @@ import math
 
 def gcd(name):
     ind = 0
-    def repeat():
+    while ind < 3:
         a = randint(1, 100)
         b = randint(1, 100)
         question = 'Find the greatest common divisor of given numbers.'

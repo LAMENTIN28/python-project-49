@@ -6,7 +6,7 @@ def progression(name):
     ind = 0
     question = 'What number is missing in the progression?'
     questions(question)
-    def repeat():
+    while ind < 3:
         length = randint(5, 10)
         step = randint(-5, 5)
         first = randint(-10, 10)
