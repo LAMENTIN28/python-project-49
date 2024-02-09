@@ -1,28 +1,26 @@
 from random import randint
-from brain_games.engine.engine import check, questions, quest_exclam
+from brain_games.engine.engine import engine
+
+
+def progression_count():
+    length = randint(5, 10)
+    step = randint(-5, 5)
+    first = randint(-10, 10)
+    space = ''
+    list = []
+    count = 1
+    while count <= length:
+        list.append(first + (step * count))
+        count += 1
+    space = randint(0, length - 1)
+    right_ans = list[space]
+    list[space] = ".."
+    exclam = str(list)
+    exclam = exclam[1:-1]
+    return [right_ans, exclam]
 
 
 def progression(name):
-    ind = 0
     question = 'What number is missing in the progression?'
-    questions(question)
-    while ind < 3:
-        length = randint(5, 10)
-        step = randint(-5, 5)
-        first = randint(-10, 10)
-        space = ''
-        list = []
-        count = 1
-        while count <= length:
-            list.append(first + (step * count))
-            count += 1
-        space = randint(0, length - 1)
-        right_ans = list[space]
-        list[space] = ".."
-        exclam = list
-        quest_exclam(*exclam)
-        ans_user = input()
-        ind = check(ans_user, right_ans, ind, name)
-        if ind is False:
-            return
+    engine(progression_count, name,  question)
     return
