@@ -9,16 +9,16 @@ def progression_count():
     space = ''
     full = ''
     count = 1
+    right_ans = ''
     space = randint(0, length - 1)
     while count <= length:
         if count != space:
             full += str(first + (step * count)) + " "
         else:
             full += ".." + " "
-            prelim = str(first + (step * count))
+            right_ans = str(first + (step * count))
         count += 1
     exclam = full[0:-1]
-    right_ans = prelim
     return [right_ans, exclam]
 
 
