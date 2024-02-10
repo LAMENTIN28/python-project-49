@@ -1,5 +1,4 @@
 from random import randint
-from brain_games.engine.engine import engine
 import math
 
 
@@ -11,7 +10,7 @@ def gcd_count():
     return [right_ans, exclam]
 
 
-def gcd(name):
+def gcd(name, func):
     question = 'Find the greatest common divisor of given numbers.'
-    engine(gcd_count, name, question)
+    func(gcd_count, name, question)
     return

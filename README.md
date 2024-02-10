@@ -25,19 +25,19 @@ Project use python and poetry latest versions by 27.01.2024.
 
 ### Asciinema
 #### **Greetings:**
-##### [![asciicast]](https://asciinema.org/a/AsypkHADsSJ9HC5dcQnaPpfot)
+##### [![Greet cast]](https://asciinema.org/a/AsypkHADsSJ9HC5dcQnaPpfot)
 
 #### *Calculator:*
-##### (https://asciinema.org/a/0FxC9WQdk4kuEIzngPdQeomEI)
+##### [![Calc cast](https://asciinema.org/a/0FxC9WQdk4kuEIzngPdQeomEI)
 
 #### *Finding prime number:* 
-#####  (https://asciinema.org/a/dBV5WiuCXgrKTsfVJIdEs1o1y)
+#####  [![Prime cast](https://asciinema.org/a/dBV5WiuCXgrKTsfVJIdEs1o1y)
 
 #### *Test for finding even number:* 
-##### (https://asciinema.org/a/ERn9W0Dn84p8805WINp22THVL)
+##### [![Even cast](https://asciinema.org/a/ERn9W0Dn84p8805WINp22THVL)
 
 #### *Progression:* 
-##### (https://asciinema.org/a/MPXzZ97Blgy0csrTspQkVgyOj)
+##### [![Progression cast](https://asciinema.org/a/MPXzZ97Blgy0csrTspQkVgyOj)
 
 #### *Greatest common divisor:* 
-##### (https://asciinema.org/a/1wnOu9jE2yMOITSe9MQWbZlfx)
+##### [![GCD cast](https://asciinema.org/a/1wnOu9jE2yMOITSe9MQWbZlfx)

@@ -1,5 +1,4 @@
 from random import randint
-from brain_games.engine.engine import engine
 
 
 def prime_count():
@@ -16,7 +15,7 @@ def prime_count():
     return [right_ans, exclam]
 
 
-def prime(name):
+def prime(name, func):
     question = 'Answer "yes" if given number is prime. Otherwise answer "no".'
-    engine(prime_count, name, question)
+    func(prime_count, name, question)
     return

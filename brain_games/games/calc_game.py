@@ -1,5 +1,4 @@
 from random import randint
-from brain_games.engine.engine import engine
 from operator import sub, add, mul
 
 
@@ -14,7 +13,7 @@ def calc_count():
     return [right_ans, exclam]
 
 
-def calc(name):
+def calc(name, func):
     question = "What is the result of the expression?"
-    engine(calc_count, name, question)
+    func(calc_count, name, question)
     return

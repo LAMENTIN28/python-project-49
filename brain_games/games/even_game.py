@@ -1,5 +1,4 @@
 from random import randint
-from brain_games.engine.engine import engine
 
 
 def even_count():
@@ -11,7 +10,7 @@ def even_count():
     return [right_ans, exclam]
 
 
-def even(name):
+def even(name, func):
     question = "Answer \"yes\" if the number is even, otherwise answer \"no\"."
-    engine(even_count, name, question)
+    func(even_count, name, question)
     return
