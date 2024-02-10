@@ -14,9 +14,11 @@ def progression_count():
         count += 1
     space = randint(0, length - 1)
     right_ans = list[space]
-    list[space] = ".."
+    list[space] = '..'
     exclam = str(list)
     exclam = exclam[1:-1]
+    exclam = ''.join(exclam)
+    exclam = exclam.replace(",", "")
     return [right_ans, exclam]
 
 
