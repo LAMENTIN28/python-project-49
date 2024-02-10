@@ -15,10 +15,10 @@ def progression_count():
             full += str(first + (step * count)) + " "
         else:
             full += ".." + " "
-            prel = str(first + (step * count))
+            prelim = str(first + (step * count))
         count += 1
     exclam = full[0:-1]
-    right_ans = prel
+    right_ans = prelim
     return [right_ans, exclam]
 
 
