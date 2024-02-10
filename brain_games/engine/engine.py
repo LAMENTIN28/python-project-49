@@ -9,13 +9,13 @@ def engine(function, name, question):
         ans_user = input()
         if str(ans_user) == str(right_ans):
             print('Correct!')
-            ind +=1
+            ind += 1
             if ind == 3:
                 print('Congratulations, ' + name + "!")
                 return
         else:
             print(str(ans_user) + ' is wrong answer ;(. '
-              'Correct answer was ' + str(right_ans))
+                  'Correct answer was ' + str(right_ans))
             print('Let\'s try again, ' + name + "!")
             return False
     return

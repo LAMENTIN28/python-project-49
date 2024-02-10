@@ -24,5 +24,5 @@ def progression_count():
 
 def progression(name):
     question = 'What number is missing in the progression?'
-    engine(progression_count, name,  question)
+    engine(progression_count, name, question)
     return

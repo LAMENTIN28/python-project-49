@@ -15,6 +15,7 @@ def prime_count():
         i += 1
     return [right_ans, exclam]
 
+
 def prime(name):
     question = 'Answer "yes" if given number is prime. Otherwise answer "no".'
     engine(prime_count, name, question)
