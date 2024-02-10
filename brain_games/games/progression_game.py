@@ -8,7 +8,7 @@ def progression_count():
     first = randint(-10, 10)
     space = ''
     full = ''
-    count = 1
+    count = 0
     right_ans = ''
     space = randint(0, length - 1)
     while count <= length:
