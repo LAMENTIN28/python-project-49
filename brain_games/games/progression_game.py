@@ -7,18 +7,18 @@ def progression_count():
     step = randint(-5, 5)
     first = randint(-10, 10)
     space = ''
-    list = []
+    full = ''
     count = 1
-    while count <= length:
-        list.append(first + (step * count))
-        count += 1
     space = randint(0, length - 1)
-    right_ans = list[space]
-    list[space] = '..'
-    exclam = str(list)
-    exclam = exclam[1:-1]
-    exclam = ''.join(exclam)
-    exclam = exclam.replace(",", "")
+    while count <= length:
+        if count != space:
+            full += str(first + (step * count)) + " "
+        else:
+            full += ".." + " "
+            prel = str(first + (step * count))
+        count += 1
+    exclam = full[0:-1]
+    right_ans = prel
     return [right_ans, exclam]
 
 
