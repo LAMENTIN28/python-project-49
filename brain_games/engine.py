@@ -1,11 +1,13 @@
 import prompt
+
+
 def start_game(function, question):
     print("Welcome to the Brain Games!")
     name = prompt.string('May I have your name? ')
     print("Hello, " + name + "!")
     print(question)
     number_right_ans = 3
-    for i in range (0, number_right_ans):
+    for i in range(0, number_right_ans):
         prel = function()
         right_ans = prel[0]
         exclam = prel[1]
