@@ -10,7 +10,7 @@ def gcd_count():
     return [right_ans, exclam]
 
 
-def gcd(name, func):
+def gcd(func):
     question = 'Find the greatest common divisor of given numbers.'
-    func(gcd_count, name, question)
+    func(gcd_count, question)
     return

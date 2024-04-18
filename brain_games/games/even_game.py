@@ -10,7 +10,7 @@ def even_count():
     return [right_ans, exclam]
 
 
-def even(name, func):
+def even(func):
     question = "Answer \"yes\" if the number is even, otherwise answer \"no\"."
-    func(even_count, name, question)
+    func(even_count, question)
     return

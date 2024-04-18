@@ -20,7 +20,7 @@ def progression_count():
     return [right_ans, exclam]
 
 
-def progression(name, func):
+def progression(func):
     question = 'What number is missing in the progression?'
-    func(progression_count, name, question)
+    func(progression_count, question)
     return

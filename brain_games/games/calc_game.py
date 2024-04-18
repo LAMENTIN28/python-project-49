@@ -13,7 +13,7 @@ def calc_count():
     return [right_ans, exclam]
 
 
-def calc(name, func):
+def calc(func):
     question = "What is the result of the expression?"
-    func(calc_count, name, question)
+    func(calc_count, question)
     return

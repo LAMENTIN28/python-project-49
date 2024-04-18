@@ -15,7 +15,7 @@ def prime_count():
     return [right_ans, exclam]
 
 
-def prime(name, func):
+def prime(func):
     question = 'Answer "yes" if given number is prime. Otherwise answer "no".'
-    func(prime_count, name, question)
+    func(prime_count, question)
     return
