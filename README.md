@@ -37,7 +37,7 @@ Project use python and poetry latest versions by 27.01.2024.
 ##### [![Even cast](https://asciinema.org/a/ERn9W0Dn84p8805WINp22THVL.svg)](https://asciinema.org/a/ERn9W0Dn84p8805WINp22THVL)
 
 #### *Progression:* 
-##### [![Progression cast](https://asciinema.org/a/MPXzZ97Blgy0csrTspQkVgyOj.svg)](https://asciinema.org/a/MPXzZ97Blgy0csrTspQkVgyOj
+##### [![Progression cast](https://asciinema.org/a/MPXzZ97Blgy0csrTspQkVgyOj.svg)](https://asciinema.org/a/MPXzZ97Blgy0csrTspQkVgyOj)
 
 #### *Greatest common divisor:* 
 ##### [![GCD cast](https://asciinema.org/a/1wnOu9jE2yMOITSe9MQWbZlfx.svg)](https://asciinema.org/a/1wnOu9jE2yMOITSe9MQWbZlfx) 
