@@ -25,7 +25,9 @@ Project use python and poetry latest versions by 27.01.2024.
 
 ### Asciinema
 #### **Greetings:**
-##### [Greet cast](https://asciinema.org/a/AsypkHADsSJ9HC5dcQnaPpfot)
+##### [![Greet cast](https://asciinema.org/a/AsypkHADsSJ9HC5dcQnaPpfot.svg)](https://asciinema.org/a/AsypkHADsSJ9HC5dcQnaPpfot)
+[![asciicast](https://asciinema.org/a/bJMOlPe5F4mFLY0Rl6fiJSOp3.svg)](https://asciinema.org/a/bJMOlPe5F4mFLY0Rl6fiJSOp3)
+
 
 #### *Calculator:*
 ##### [Calc cast](https://asciinema.org/a/0FxC9WQdk4kuEIzngPdQeomEI)
