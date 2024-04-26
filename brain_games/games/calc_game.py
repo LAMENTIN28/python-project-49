@@ -10,10 +10,11 @@ def calc_count():
     operators = [add, sub, mul]
     exclam = str(num1) + ' ' + operators_sym[sign] + ' ' + str(num2)
     right_ans = operators[sign](num1, num2)
-    return [right_ans, exclam]
+    return (right_ans, exclam)
 
 
-def calc(func):
-    question = "What is the result of the expression?"
-    func(calc_count, question)
-    return
+def calc():
+    QUESTION = "What is the result of the expression?"
+    print(QUESTION)
+    ans =  calc_count()
+    return ans

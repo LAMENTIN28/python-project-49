@@ -12,10 +12,11 @@ def prime_count():
             count += 1
             right_ans = "no"
         i += 1
-    return [right_ans, exclam]
+    return (right_ans, exclam)
 
 
-def prime(func):
-    question = 'Answer "yes" if given number is prime. Otherwise answer "no".'
-    func(prime_count, question)
-    return
+def prime():
+    QUESTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+    print(QUESTION)
+    ans = prime_count()
+    return ans

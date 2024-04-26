@@ -17,10 +17,11 @@ def progression_count():
             right_ans = str(first + (step * count))
         count += 1
     exclam = full[0:-1]
-    return [right_ans, exclam]
+    return (right_ans, exclam)
 
 
-def progression(func):
-    question = 'What number is missing in the progression?'
-    func(progression_count, question)
-    return
+def progression():
+    QUESTION = 'What number is missing in the progression?'
+    print(QUESTION)
+    ans = progression_count()
+    return ans

@@ -3,7 +3,7 @@ from brain_games.engine import start_game
 
 
 def main():
-    even(start_game)
+    start_game(even)
 
 
 if __name__ == '__main__':

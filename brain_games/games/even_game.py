@@ -7,10 +7,11 @@ def even_count():
     if num % 2 == 0:
         right_ans = 'yes'
     exclam = str(num)
-    return [right_ans, exclam]
+    return (right_ans, exclam)
 
 
-def even(func):
-    question = "Answer \"yes\" if the number is even, otherwise answer \"no\"."
-    func(even_count, question)
-    return
+def even():
+    QUESTION = "Answer \"yes\" if the number is even, otherwise answer \"no\"."
+    print(QUESTION)
+    ans =  even_count()
+    return ans
