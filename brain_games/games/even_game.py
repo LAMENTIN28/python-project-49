@@ -13,5 +13,5 @@ def even_count():
 def even():
     QUESTION = "Answer \"yes\" if the number is even, otherwise answer \"no\"."
     print(QUESTION)
-    ans =  even_count()
+    ans = even_count()
     return ans

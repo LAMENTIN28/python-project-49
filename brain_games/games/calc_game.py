@@ -16,5 +16,5 @@ def calc_count():
 def calc():
     QUESTION = "What is the result of the expression?"
     print(QUESTION)
-    ans =  calc_count()
+    ans = calc_count()
     return ans
