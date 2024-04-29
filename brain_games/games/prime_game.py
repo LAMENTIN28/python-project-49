@@ -16,8 +16,3 @@ def give_data():
             right_ans = "no"
         i += 1
     return right_ans, exclam
-
-
-def prime():
-    ans = prime_count()
-    return ans
