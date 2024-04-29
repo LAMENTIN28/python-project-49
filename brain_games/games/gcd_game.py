@@ -2,16 +2,12 @@ from random import randint
 import math
 
 
-def gcd_count():
+QUESTION = 'Find the greatest common divisor of given numbers.'
+
+
+def give_data():
     a = randint(1, 100)
     b = randint(1, 100)
     exclam = str(a) + ' ' + str(b)
     right_ans = math.gcd(a, b)
-    return (right_ans, exclam)
-
-
-def gcd():
-    QUESTION = 'Find the greatest common divisor of given numbers.'
-    print(QUESTION)
-    ans = gcd_count()
-    return ans
+    return right_ans, exclam

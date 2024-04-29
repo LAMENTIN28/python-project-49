@@ -1,7 +1,10 @@
 from random import randint
 
 
-def prime_count():
+QUESTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+
+
+def give_data():
     i = 2
     count = 0
     number = randint(1, 1000)
@@ -12,11 +15,9 @@ def prime_count():
             count += 1
             right_ans = "no"
         i += 1
-    return (right_ans, exclam)
+    return right_ans, exclam
 
 
 def prime():
-    QUESTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
-    print(QUESTION)
     ans = prime_count()
     return ans
