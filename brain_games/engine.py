@@ -12,7 +12,8 @@ def start_game(game_module):
         print(f'Question: {exclam}')
         ans_user = prompt.string("")
         if str(ans_user) != str(right_ans):
-            print(f'{ans_user} is wrong answer ;(. Correct answer was {right_ans}')
+            print(f'{ans_user} is wrong answer ;(. '
+                  'Correct answer was {right_ans}')
             print(f'Let\'s try again, {name}!')
             return
         print('Correct!')
