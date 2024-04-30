@@ -3,7 +3,7 @@ from brain_games.engine import start_game
 
 
 def main():
-    start_game(progression.give_data, progression.QUESTION)
+    start_game(progression)
 
 
 if __name__ == '__main__':

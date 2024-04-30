@@ -1,10 +1,10 @@
 from random import randint
 
 
-QUESTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+DEFINITION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def give_data():
+def get_answer_exclam():
     i = 2
     count = 0
     number = randint(1, 1000)

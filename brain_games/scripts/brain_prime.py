@@ -3,7 +3,7 @@ from brain_games.engine import start_game
 
 
 def main():
-    start_game(prime.give_data, prime.QUESTION)
+    start_game(prime)
 
 
 if __name__ == '__main__':

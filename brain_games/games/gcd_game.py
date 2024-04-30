@@ -2,10 +2,10 @@ from random import randint
 import math
 
 
-QUESTION = 'Find the greatest common divisor of given numbers.'
+DEFINITION = 'Find the greatest common divisor of given numbers.'
 
 
-def give_data():
+def get_answer_exclam():
     a = randint(1, 100)
     b = randint(1, 100)
     exclam = str(a) + ' ' + str(b)

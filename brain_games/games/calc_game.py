@@ -2,10 +2,10 @@ from random import randint
 from operator import sub, add, mul
 
 
-QUESTION = "What is the result of the expression?"
+DEFINITION = "What is the result of the expression?"
 
 
-def give_data():
+def get_answer_exclam():
     num1 = randint(1, 100)
     num2 = randint(1, 100)
     sign = randint(0, 2)

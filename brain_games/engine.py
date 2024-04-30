@@ -1,20 +1,19 @@
 import prompt
 
 
-def start_game(function, CONSTANT):
+def start_game(game_module):
     print("Welcome to the Brain Games!")
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
-    print(CONSTANT)
+    print(game_module.DEFINITION)
     round_count = 3
     for _ in range(0, round_count):
-        right_ans, exclam = function()
-        print("Question: " + str(exclam))
+        right_ans, exclam = game_module.get_answer_exclam()
+        print(f'Question: {exclam}')
         ans_user = prompt.string("")
         if str(ans_user) != str(right_ans):
-            print(str(ans_user) + ' is wrong answer ;(. '
-                  'Correct answer was ' + str(right_ans))
-            print('Let\'s try again, ' + name + "!")
+            print(f'{ans_user} is wrong answer ;(. Correct answer was {right_ans}')
+            print(f'Let\'s try again, {name}!')
             return
         print('Correct!')
-    print('Congratulations, ' + name + "!")
+    print(f'Congratulations, {name}!')

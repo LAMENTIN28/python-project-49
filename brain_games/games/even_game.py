@@ -1,10 +1,10 @@
 from random import randint
 
 
-QUESTION = "Answer \"yes\" if the number is even, otherwise answer \"no\"."
+DEFINITION = "Answer \"yes\" if the number is even, otherwise answer \"no\"."
 
 
-def give_data():
+def get_answer_exclam():
     num = randint(1, 999)
     right_ans = 'no'
     if num % 2 == 0:

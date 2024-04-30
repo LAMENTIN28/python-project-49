@@ -1,10 +1,10 @@
 from random import randint
 
 
-QUESTION = 'What number is missing in the progression?'
+DEFINITION = 'What number is missing in the progression?'
 
 
-def give_data():
+def get_answer_exclam():
     length = randint(5, 10)
     step = randint(-5, 5)
     first = randint(-10, 10)
