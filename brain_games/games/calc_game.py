@@ -11,6 +11,6 @@ def get_answer_exclam():
     sign = randint(0, 2)
     operators_sym = ['+', '-', '*']
     operators = [add, sub, mul]
-    exclam = str(num1) + ' ' + operators_sym[sign] + ' ' + str(num2)
+    exclam = f'{num1} {operators_sym[sign]} {num2}'
     right_ans = operators[sign](num1, num2)
     return right_ans, exclam
