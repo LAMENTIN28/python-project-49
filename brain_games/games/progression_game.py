@@ -14,9 +14,9 @@ def get_answer_exclam():
     space = randint(0, length - 1)
     while count <= length:
         if count != space:
-            full += f'{(first + (step * count))} ' 
+            full += f'{(first + (step * count))} '
         else:
-            full += f".. "
+            full += ".." + ' '
             right_ans = str(first + (step * count))
         count += 1
     exclam = full[0:-1]
