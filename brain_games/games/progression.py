@@ -12,12 +12,12 @@ def get_answer_exclam():
     count = 0
     right_ans = ''
     space = randint(0, length - 1)
-    while count <= length:
-        if count != space:
-            full += f'{(first + (step * count))} '
+    end = first + (step*length)
+    for k, v in enumerate(range(first, end, step)):
+        if k != space:
+            full += f'{(first + (step * k))} '
         else:
             full += ".." + ' '
-            right_ans = str(first + (step * count))
-        count += 1
+            right_ans = str(first + (step * k))
     exclam = full[0:-1]
     return right_ans, exclam
