@@ -1,4 +1,4 @@
-import brain_games.games.prime_game as prime
+import brain_games.games.prime as prime
 from brain_games.engine import start_game
 
 

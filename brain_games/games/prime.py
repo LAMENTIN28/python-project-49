@@ -11,6 +11,7 @@ def get_answer_exclam():
     right_ans = 'yes' if check_number(number) is True else 'no'
     return right_ans, exclam
 
+
 def check_number(number):
     i = 2
     while i < number:

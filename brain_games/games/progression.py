@@ -9,12 +9,11 @@ def get_answer_exclam():
     step = randint(-5, 5)
     first = randint(-10, 10)
     full = ''
-    count = 0
     right_ans = ''
-    space = randint(0, length - 1)
-    end = first + (step*length)
-    for k, v in enumerate(range(first, end, step)):
-        if k != space:
+    space_number = randint(0, length - 1)
+    last = first + (step * length)
+    for k, v in enumerate(range(first, last, step)):
+        if k != space_number:
             full += f'{(first + (step * k))} '
         else:
             full += ".." + ' '

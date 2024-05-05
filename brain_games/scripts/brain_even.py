@@ -1,4 +1,4 @@
-import brain_games.games.even_game as even
+import brain_games.games.even as even
 from brain_games.engine import start_game
 
 
