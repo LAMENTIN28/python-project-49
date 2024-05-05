@@ -7,6 +7,7 @@ DEFINITION = 'What number is missing in the progression?'
 def get_answer_exclam():
     length = randint(5, 10)
     step = randint(-5, 5)
+    step = step if step != 0 else 1
     first = randint(-10, 10)
     full = ''
     right_ans = ''
