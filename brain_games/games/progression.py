@@ -15,4 +15,5 @@ def get_answer_question():
     full = list(range(first, last, step))
     answer = full[space_number]
     full[space_number] = ".."
-    return answer, str(full).replace("'", '')[1:-1]
+    question = str(full).replace("'", '')[1:-1]
+    return answer, question.replace(',', "")
