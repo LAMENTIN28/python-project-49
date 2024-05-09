@@ -8,7 +8,7 @@ def start_game(game_module):
     print(game_module.DEFINITION)
     round_count = 3
     for _ in range(0, round_count):
-        right_ans, exclam = game_module.get_answer_exclam()
+        right_ans, exclam = game_module.get_answer_question()
         print(f'Question: {exclam}')
         ans_user = prompt.string("")
         if str(ans_user) != str(right_ans):
